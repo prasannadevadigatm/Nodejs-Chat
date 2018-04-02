@@ -1,2 +1,1 @@
-# nodejs-chat
-Chat application
+# Nodejs-Chat
