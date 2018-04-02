@@ -1,0 +1,32 @@
+<ion-view view-title="Sign Up">
+  <ion-content>
+  <form name="authorizationForm" novalidate="" ng-submit="createUser()">
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Name</span>
+        <input type="text" placeholder="Name" ng-model="user.name">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">User Name</span>
+        <input type="text" placeholder="User Name" ng-model="user.username">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Password</span>
+        <input type="password" placeholder="Password" ng-model="user.password">
+      </label>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button class="button button-full button-positive" type="submit">
+          Submit
+        </button>
+      </div>
+    </div>
+    <div class="text-right">
+      <a class="button button-clear button-positive" ui-sref="tab.login">
+        Login
+      </a>
+    </div>
+  </form>
+  </ion-content>
+</ion-view>
